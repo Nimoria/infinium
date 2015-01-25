@@ -196,7 +196,9 @@ namespace nodetool
   {
     if (!testnet) {
       //TODO add seed for your network
-      ADD_HARDCODED_SEED_NODE("62.113.238.118:27854");
+      // ADD_HARDCODED_SEED_NODE("62.113.238.118:27854");
+      ADD_HARDCODED_SEED_NODE("178.62.79.220:27854");       // Nimoria Seed Node 01
+      
     } else {
       m_network_id.data[0] += 1;
     }
